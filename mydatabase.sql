@@ -1,0 +1,11 @@
+CREATE DATABASE IF NOT EXISTS new_schema1;
+USE new_schema1;
+
+CREATE TABLE IF NOT EXISTS student_booking (
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    FName VARCHAR(50),
+    LName VARCHAR(50),
+    Email VARCHAR(100),
+    Phone VARCHAR(20),
+    Subject VARCHAR(100)
+)
